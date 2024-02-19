@@ -1,11 +1,9 @@
 clear; clc; 
 %% Load network
-% load("gru500Net.mat")
-% load("FromScratch_All.mat")
-load("FineTuned_All_2000steps.mat")
+load("FromScratch_RR_15_best.mat")
 
 rotate2PrincipalAxis = 0;
-timeSteps = "2001"; % "original"
+timeSteps = "original";
 
 %% Load data
 ALL = load("RVE_all_data.mat","X_test","Y_test");
