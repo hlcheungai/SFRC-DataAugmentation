@@ -10,9 +10,9 @@ load("GeneralTest_BiNormalNormal.mat")
 
 % load("RVE_all_data.mat")
 
-networkToTest = ["gru500Net.mat","FromScratch_All","FineTuned_All_2000steps"];
-nTimeSteps = ["2001","orginal", "2001"];
-nameSetting = ["Original","From Scratch","Fine-tuned"];
+networkToTest = ["FromScratch_RR_15_best.mat"];
+nTimeSteps = ["orginal"];
+nameSetting = ["R15"];
 
 rotate2PrincipalAxis = [0, 0, 0, 0, 0, 0];
 nInputs = [13, 13, 13, 13, 13, 13];
